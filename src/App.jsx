@@ -2,7 +2,6 @@ import SideBar from "./components/SideBarComponent/SideNavigationBarComponent";
 import Navbar from "./components/TopNavAdminComponent/TopNavAdminComponent";
 import BreadcrumbNav from "./components/BreadcrumbNavigation/BreadcrumbNavigation";
 import MemberProfileEdit from "./components/MemberProfileEditComponent/MemberProfileEditComponent";
-import ProfileInfoComponent from "./components/ProfileInfoComponent/ProfileInfoComponent";
 
 function App() {
   return (
