@@ -2,6 +2,7 @@ import SideBar from "./components/SideBarComponent/SideNavigationBarComponent";
 import Navbar from "./components/TopNavAdminComponent/TopNavAdminComponent";
 import BreadcrumbNav from "./components/BreadcrumbNavigation/BreadcrumbNavigation";
 import MemberProfileEdit from "./components/MemberProfileEditComponent/MemberProfileEditComponent";
+import ProfileCard from "./components/ProfileInfoCard/ProfileInfoCard";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <div className="px-[16px] py-[24px]  box-border">
           <div className="bg-black rounded-[10px] gap-[32px] p-[24px] flex flex-col justify-center items-center box-border">
             <BreadcrumbNav />
-            <MemberProfileEdit />
+            {/* <MemberProfileEdit /> */}
+            <ProfileCard />
           </div>
         </div>
       </div>

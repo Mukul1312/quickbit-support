@@ -1,0 +1,22 @@
+const texts = {
+  sectiontitle: `Profile Info`,
+  fieldlabel: `Full Name`,
+  userfullname: ` John Doe`,
+  fieldlabel1: `Email`,
+  useremail: ` john.doe@email.com`,
+  fieldlabel2: `IP Address`,
+  useripaddress: `192.168.1.101`,
+  fieldlabel3: `Status`,
+  userstatus: `Active`,
+  fieldlabel4: `Login Type`,
+  userlogintype: `Discord`,
+  fieldlabel5: `Discord ID`,
+  userdiscordid: `Example1234`,
+  fieldlabel6: `Signup Date`,
+  usersignupdate: `January 15, 2024`,
+  fieldlabel7: `Last Login`,
+  userlastlogin: ` October 1, 2024`,
+  buttonlabel: `Reset Password`,
+  buttonlabel1: `Suspend`,
+};
+export default texts;
