@@ -17,7 +17,7 @@ const BreadcrumbNavigation = ({
   editPageLink = texts.editPageLink,
 }) => {
   return (
-    <div className="max-w-[1112px] w-full box-border min-h-[18px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-nowrap justify-start items-center gap-[8px] p-[0px_0px_0px__0px]">
+    <div className="w-full box-border min-h-[18px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-nowrap justify-start items-center gap-[8px] p-[0px_0px_0px__0px]">
       {/* Back btn1 */}
       <section className="max-w-[79px] w-full box-border min-h-[18px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-nowrap justify-start items-center gap-[8px] p-[0px_0px_0px__0px] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px]">
         <div className="max-w-[79px] w-full box-border min-h-[18px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]">

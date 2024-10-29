@@ -6,14 +6,15 @@ import ProfileInfoComponent from "./components/ProfileInfoComponent/ProfileInfoC
 
 function App() {
   return (
-    <div className="App bg-black flex flex-row items-start">
+    <div className="bg-[#101010] flex flex-row items-start">
       <SideBar />
       <div className="w-full">
         <Navbar />
-        <div className="p-[24px] flex flex-col justify-center items-center">
-          <BreadcrumbNav />
-          {/* <MemberProfileEdit /> */}
-          <ProfileInfoComponent />
+        <div className="px-[16px] py-[24px]  box-border">
+          <div className="bg-black rounded-[10px] gap-[32px] p-[24px] flex flex-col justify-center items-center box-border">
+            <BreadcrumbNav />
+            <MemberProfileEdit />
+          </div>
         </div>
       </div>
     </div>
