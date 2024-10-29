@@ -1,4 +1,3 @@
-import "./App.css";
 import SideBar from "./components/SideBarComponent/SideNavigationBarComponent";
 import Navbar from "./components/TopNavAdminComponent/TopNavAdminComponent";
 import BreadcrumbNav from "./components/BreadcrumbNavigation/BreadcrumbNavigation";
@@ -6,11 +5,15 @@ import MemberProfileEdit from "./components/MemberProfileEditComponent/MemberPro
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-black flex flex-row items-start">
       <SideBar />
-      <Navbar />
-      <BreadcrumbNav />
-      <MemberProfileEdit />
+      <div className="w-full">
+        <Navbar />
+        <div className="p-[24px] flex flex-col justify-center items-center">
+          <BreadcrumbNav />
+          <MemberProfileEdit />
+        </div>
+      </div>
     </div>
   );
 }
